@@ -14,7 +14,7 @@ First Attempt (Starter_Code.ipynb):  \
         b. Hidden Layer 2: 30  neurons \
         c. Epochs: 100 \
         d. Activation functions: ReLU for hidden layers, sigmoid for output layer \
-    3. Accuracy: 72.93 \
+    3. Accuracy: 72.93 
 
 Optimization Attempt 1 (AlphabetSoupCharity_Optimization1.ipynb):  \
     1. Preprocessing: Same as initial model \

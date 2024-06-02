@@ -6,6 +6,8 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 ## Outputs
 First Attempt (Starter_Code.ipynb): 
     1. Preprocessing: 
+        a. Drop the EIN and NAME columns
+        b. Target variable: IS_SUCCESSFUL
     2. Compiling, Training and Evaluating: 
         a. Hidden Layer 1: 80 neurons
         b. Hidden Layer 2: 30  neurons
@@ -37,7 +39,7 @@ Optimization Attempt 3 (AlphabetSoupCharity_Optimization3.ipynb):
     3. Accuracy: 72.91
 
 ## Summary 
-
+We did not accomplish the 75% accuracy target after multiple optimization attempts. The highest accuracy this model attained was 73.11% at the second optimization. We ran through different iterations for the hidden layers of neurons and epochs. Further enhancements could be made by continuing to iteratate through different compiling/training/evaluating steps. 
 
 ### Resources
 Class resources and Chat GPt \

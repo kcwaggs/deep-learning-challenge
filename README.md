@@ -8,10 +8,12 @@ First Attempt (Starter_Code.ipynb):  \
     1. Preprocessing:  \
         a. Drop the EIN and NAME columns \
         b. Target variable: IS_SUCCESSFUL \
+        Features: all columns from the application_df dataset, excluding the EIN and NAME columns \
     2. Compiling, Training and Evaluating:  \
         a. Hidden Layer 1: 80 neurons \
         b. Hidden Layer 2: 30  neurons \
         c. Epochs: 100 \
+        d. Activation functions: ReLU for hidden layers, sigmoid for output layer \
     3. Accuracy: 72.93 \
 
 Optimization Attempt 1 (AlphabetSoupCharity_Optimization1.ipynb):  \
@@ -20,6 +22,7 @@ Optimization Attempt 1 (AlphabetSoupCharity_Optimization1.ipynb):  \
         a. Hidden Layer 1: 100 neurons \
         b. Hidden Layer 2: 50 neurons \
         c. Epochs: 120 \
+        d. Activation functions: ReLU for hidden layers, sigmoid for output layer \
     3. Accuracy: 73.01
 
 Optimization Attempt 2 (AlphabetSoupCharity_Optimization2.ipynb):  \
@@ -28,6 +31,7 @@ Optimization Attempt 2 (AlphabetSoupCharity_Optimization2.ipynb):  \
         a. Hidden Layer 1: 100 neurons \
         b. Hidden Layer 2: 50 neurons \
         c. Epochs: 150 \
+        d. Activation functions: ReLU for hidden layers, sigmoid for output layer \
     3. Accuracy: 73.11 
 
 Optimization Attempt 3 (AlphabetSoupCharity_Optimization3.ipynb):  \
@@ -36,6 +40,7 @@ Optimization Attempt 3 (AlphabetSoupCharity_Optimization3.ipynb):  \
         a. Hidden Layer 1: 100 neurons \
         b. Hidden Layer 2: 45 neurons \
         c. Epochs: 170 \
+        d. Activation functions: ReLU for hidden layers, sigmoid for output layer \
     3. Accuracy: 72.91 
 
 ## Summary 
